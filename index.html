@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Cuda-Single Page Portfolio</title>
+        <link rel="stylesheet" href="vendors/css/grid.css" />
+        <link rel="stylesheet" href="vendors/css/normalize.css" />
+        <link rel="stylesheet" href="resources/css/style.css" />
+        <link rel="stylesheet" href="resources/css/responsive.css" />
+    </head>
+    <body>
+        <header id="home">
+            <nav>
+                <div class="row">
+                    <div class="logo">
+                        <a href="#"> <img src="resources/img/logo.png" alt="cuda" /> </a>
+                    </div>
+                    <div class="nav">
+                        <ul class="nav-bar">
+                            <li class="active"><a href="#home">home</a></li>
+                            <li><a href="#service">service</a></li>
+                            <li><a href="#team">team</a></li>
+                            <li><a href="#skill">skill</a></li>
+                            <li><a href="#portfolio">protfolio</a></li>
+                            <li><a href="#testimonial">testimonial</a></li>
+                            <li><a href="#contact">contact</a></li>
+                        </ul>
+                        <div class="mobile-menu">
+                            <span onclick="openNav()">&#9776;</span>
+                            <div id="mobile-nav" class="overlay">
+                                <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                                <div class="overlay-content">
+                                    <a onclick="closeNav()" href="#home">home</a> <a onclick="closeNav()" href="#service">service</a> <a onclick="closeNav()" href="#team">team</a> <a onclick="closeNav()" href="#skill">skill</a>
+                                    <a onclick="closeNav()" href="#portfolio">protfolio</a> <a onclick="closeNav()" href="#testimonial">testimonial</a> <a onclick="closeNav()" href="#contact">contact</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="hero-text-box">
+                    <h1>Hi there! We are the new kids on the block and we build awesome websites and mobile apps.</h1>
+                    <div class="btn"><a href="#contact" class="hero-btn">work with us!</a></div>
+                </div>
+            </div>
+        </header>
+        <section class="service-section js" id="service">
+            <div class="row">
+                <h2>SERVICES WE PROVIDE</h2>
+                <p class="little-description">We are working with both individuals and businesses from all over the globe to create awesome websites and applications.</p>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 box">
+                    <img src="resources/img/flag.png" alt="Flag" class="service-icon" />
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="resources/img/pen.png" alt="Pen" class="service-icon" />
+                    <h3>Design</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem git pblm in my</p>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="resources/img/gear.png" alt="Gear" class="service-icon" />
+                    <h3>Development</h3>
+                    <p>At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.</p>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="resources/img/roket.png" alt="Roket" class="service-icon" />
+                    <h3>Rocket Science</h3>
+                    <p>Et harum quidem rerum est et expedita distinctio. Nam libero tempore.</p>
+                </div>
+            </div>
+        </section>
+        <section class="team-section" id="team">
+            <div class="row">
+                <h2>MEET OUR BEAUTIFUL TEAM</h2>
+                <p class="little-description description">We are a small team of designers and developers, who help brands with big ideas.</p>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 box">
+                    <img src="resources/css/img/team6.jpg" alt="CEO" class="teammate" />
+                    <h3>Mira Jahan</h3>
+                    <span class="role">CEO / Marketing Guru</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="mail-open-outline"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="resources/css/img/team2.jpg" alt="CEO" class="teammate" />
+                    <h3>Watson GILL</h3>
+                    <span class="role">Creative Director</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="mail-open-outline"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="resources/css/img/team3.jpg" alt="CEO" class="teammate" />
+                    <h3>Adamp Pol</h3>
+                    <span class="role">Lead Designer</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="mail-open-outline"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <img src="resources/css/img/team4.jpg" alt="CEO" class="teammate" />
+                    <h3>Vanricki Bel</h3>
+                    <span class="role">SEO / Developer</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                            </li>
+                            <li>
+                                <a href=""><ion-icon name="mail-open-outline"></ion-icon></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skill-section" id="skill">
+            <div class="row">
+                <h2>WE GOT SKILLS!</h2>
+                <p class="little-description description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_4 box">
+                    <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                    </svg>
+                    <h3>web design</h3>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                    </svg>
+                    <h3>html / css</h3>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                    </svg>
+                    <h3>graphic design</h3>
+                </div>
+                <div class="col span_1_of_4 box">
+                    <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                        <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                        <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;"></circle>
+                        <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                    </svg>
+                    <h3>ui / ux</h3>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio-section" id="portfolio">
+            <div class="row">
+                <h2>OUR PORTFOLIO</h2>
+                <p class="little-description description">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam</p>
+            </div>
+            <div class="row">
+                <div class="portfolio-filter">
+                    <button type="button" data-filter="all">all</button> <button type="button" data-filter=".web">web</button> <button type="button" data-filter=".apps">apps</button> <button type="button" data-filter=".icons">icons</button>
+                </div>
+            </div>
+            <div class="row container">
+                <div class="col span_1_of_2 mix apps box">
+                    <img src="resources/img/Portfolio1.png" alt="Isometric Perspective Mock-Up" class="portfolio-img" />
+                    <h4>Isometric Perspective Mock-Up</h4>
+                </div>
+                <div class="col span_1_of_2 mix apps web box">
+                    <img src="resources/img/Portfolio2.png" alt="Isometric Perspective Mock-Up" class="portfolio-img" />
+                    <h4>Time Zone App UI</h4>
+                </div>
+                <div class="col span_1_of_2 mix icons box">
+                    <img src="resources/img/Portfolio3.png" alt="Isometric Perspective Mock-Up" class="portfolio-img" />
+                    <h4>Viro Media Players UI</h4>
+                </div>
+                <div class="col span_1_of_2 mix apps icons web box">
+                    <img src="resources/img/Portfolio4.png" alt="Isometric Perspective Mock-Up" class="portfolio-img" />
+                    <h4>Blog / Magazine Flat UI Kit</h4>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial-section" id="testimonial">
+            <div class="row">
+                <h2>WHAT POEPLE SAY ABOUT US</h2>
+                <p class="little-description">Our clients love us!</p>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_2 box">
+                    <div class="client-photo"><img src="resources/css/img/1.png" alt="Chanel Iman" /></div>
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magni eum, dolorem.</p>
+                        <h3>Chanel Iman</h3>
+                        <span class="role">CEO of Pinterest</span>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="client-photo"><img src="resources/css/img/2.jpg" alt="Chanel Iman" /></div>
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magni eum, dolorem.</p>
+                        <h3>ADRIANA LIMA</h3>
+                        <span class="role">Founder of Instagram</span>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="client-photo"><img src="resources/css/img/3.jpg" alt="Chanel Iman" /></div>
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magni eum, dolorem.</p>
+                        <h3>ANNE HATHAWAY</h3>
+                        <span class="role">Lead Designer at Behance</span>
+                    </div>
+                </div>
+                <div class="col span_1_of_2 box">
+                    <div class="client-photo"><img src="resources/css/img/4.jpg" alt="Chanel Iman" /></div>
+                    <div class="client-review">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus magni eum, dolorem.</p>
+                        <h3>EMMA STONE</h3>
+                        <span class="role">Co-Founder of Shazam</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contect-section" id="contact">
+            <div class="row">
+                <h2>GET IN TOUCH</h2>
+                <p class="little-description">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+            </div>
+            <div class="row">
+                <form action="https://formspree.io/ragibrahman86317@gmail.com" method="POST">
+                    <div class="row">
+                        <div class="col span_1_of_2"><input type="text" name="Name" placeholder="Your Name *" required /></div>
+                        <div class="col span_1_of_2"><input type="email" name="Email" placeholder="Your Email *" required /></div>
+                    </div>
+                    <div class="row"><textarea name="Message" cols="30" rows="10" placeholder="Your Message *" required></textarea></div>
+                    <div class="row"><input type="submit" value="SEND MESSAGE" class="btn btn-submit" /></div>
+                </form>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="row">
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Google+</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Behance</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        <script src="vendors/js/html5shiv.min.js"></script>
+        <script src="vendors/js/respond.min.js"></script>
+        <script src="vendors/js/jquery.waypoints.min.js"></script>
+        <script src="vendors/js/mixitup.min.js"></script>
+        <script src="resources/js/main.js"></script>
+    </body>
+</html>
